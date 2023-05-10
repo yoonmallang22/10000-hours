@@ -1,0 +1,21 @@
+.result-section p {
+  margin-bottom: 110px;
+}
+
+.result-section .input-value {
+  display: inline-block;
+  line-height: 90px;
+  /* margin-bottom: 17px; */
+  font-family: "GmarketSansBold";
+  font-size: 72px;
+  vertical-align: middle;
+}
+
+.result-section .btn-group {
+  text-align: center;
+}
+
+.result-section .share {
+  margin-left: 18px;
+  background-color: #fff;
+}

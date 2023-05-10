@@ -1,0 +1,16 @@
+footer {
+  margin: 130px 0 60px;
+}
+
+footer img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+small {
+  display: block;
+  text-align: center;
+  font-family: "Noto Sans KR";
+  font-size: 12px;
+  line-height: 17px;
+}

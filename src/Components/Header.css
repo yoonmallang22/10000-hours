@@ -1,0 +1,55 @@
+h1 {
+  position: relative;
+  width: 564px;
+  margin: 194px auto 122px;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -60%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 261px;
+  height: 265px;
+  background: url(../img/clock.png) no-repeat;
+}
+
+h1 img {
+  width: 100%;
+}
+
+header strong {
+  display: block;
+  margin-bottom: 78px;
+  text-align: center;
+  font-family: "OTEnjoystoriesBA";
+  font-size: 36px;
+  color: #f5df4d;
+}
+
+blockquote {
+  position: relative;
+  margin: 0 auto 102px;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: center;
+}
+
+blockquote::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 486px;
+  height: 32px;
+  background: url(../img/quotes.png) no-repeat;
+}
+
+.bold {
+  font-family: "GmarketSansBold";
+  font-size: 24px;
+}

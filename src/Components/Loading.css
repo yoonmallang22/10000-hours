@@ -1,0 +1,17 @@
+.loading {
+  text-align: center;
+}
+
+.loading img {
+  width: 100px;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

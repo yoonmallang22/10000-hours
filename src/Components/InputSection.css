@@ -1,0 +1,36 @@
+.input-section p {
+  margin-bottom: 88px;
+}
+
+.input-section input {
+  width: 228px;
+  height: 57px;
+  margin-bottom: 27px;
+  border-radius: 7px;
+  background: #ffffff;
+  font: inherit;
+  font-size: 24px;
+  color: #666;
+  text-align: center;
+}
+
+.input-section input::placeholder {
+  color: #babcbe;
+}
+
+.input-section button {
+  position: relative;
+  display: block;
+  margin: 0 auto 147px;
+}
+
+.input-section button::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 72px;
+  position: absolute;
+  top: 30%;
+  right: -15%;
+  background-image: url(../img/click.png);
+}
